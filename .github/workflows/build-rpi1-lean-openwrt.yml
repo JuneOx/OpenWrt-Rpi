@@ -28,7 +28,7 @@ env:
   CONFIG_FILE: config/lean/rpi1-lean-openwrt.config
   DEVICE: openwrt-bcm27xx-bcm2708-rpi
   DIY_SH: scripts/lean-openwrt.sh
-  SSH_ACTIONS: true
+  SSH_ACTIONS: false
   KMODS_IN_FIRMWARE: true
   UPLOAD_EXT4_IMAGES: true
   UPLOAD_SQUASHFS_IMAGES: true
